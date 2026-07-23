@@ -9,3 +9,4 @@ streamlit==1.44.1
 matplotlib==3.10.1
 seaborn==0.13.2
 python-dotenv==1.0.1
+langsmith==0.1.92
