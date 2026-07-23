@@ -13,10 +13,11 @@ from langchain_experimental.tools import PythonAstREPLTool
 
 load_dotenv()
 API_KEY_GROQ = os.getenv("API_KEY_GROQ")
+MODEL_NAME_GROQ = os.getenv("MODEL_NAME_GROQ")
 
 llm = ChatGroq(
     api_key=API_KEY_GROQ,
-    model_name="llama-3.3-70b-versatile",
+    model_name=MODEL_NAME_GROQ,
     temperature=0
     )
 
