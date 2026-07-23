@@ -1,6 +1,7 @@
 [project]
 name = "analisis-datos"
 version = "0.1.0"
+requires-python = ">=3.9"
 dependencies = [
     "langchain==0.3.22",
     "langchain-groq==0.3.2",
